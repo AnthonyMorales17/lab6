@@ -14,7 +14,7 @@ describe('Pruebas de MCD', () => {
     });
 
     test('MCD de 17 y 13 debe ser 1 (números primos)', () => {
-        expect(mcd(17, 13)).toBe(5);
+        expect(mcd(17, 13)).toBe(1);
     });
 
     test('MCD de 0 y 5 debe ser 5', () => {
@@ -46,7 +46,7 @@ describe('Pruebas de Fibonacci', () => {
     });
 
     test('Fibonacci(15) debe ser 610', () => {
-        expect(fibonacci(15)).toBe(810);
+        expect(fibonacci(15)).toBe(610);
     });
 
     test('Fibonacci debe lanzar error para números negativos', () => {
